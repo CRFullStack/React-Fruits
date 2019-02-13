@@ -4,22 +4,56 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 10vmin;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #fafbfd;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(5px + 2vmin);
+  color: rgb(247, 127, 15);
 }
 
 .App-link {
   color: #61dafb;
+}
+
+hr{
+  color: orangered;
+  background-color: orangered;
+  height: .7px;
+  width: 500px;
+}
+
+.h-card {
+  background-color: #fafbfd;
+  border: 1px solid #bdc0c4;
+  border-radius: 3px;
+  margin: auto;
+  margin-bottom: 20%;
+  max-width: 10%;
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+}
+
+img.fruit {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 10vmin; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 @keyframes App-logo-spin {
